@@ -1,0 +1,63 @@
+html {
+   font-size: 16px;
+}
+
+h1, p {
+   font-family: 'Alegreya Sans', sans-serif;
+}
+
+nav a {
+   text-decoration: none;
+   color: black;   
+}
+
+/* Main Content */
+body {
+   padding: 0;
+   margin: 0;
+}
+.FlexWrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: auto;
+   height: 100vh;
+}
+main {
+   flex: auto;
+   
+}
+
+/* Header Menu */
+header {
+   flex: 0 0 auto; 
+   font-size: 1.5rem;
+   background-color: violet;    
+}
+.NavTabs a {
+   font-family: 'Alegreya Sans', sans-serif;
+   background-color: grey;
+}
+
+/* Footer External Links */
+footer {
+   flex: 0 0 auto;   
+   text-align: center;
+   padding: 0.5rem;
+   background-color: rgb(41, 41, 41);  
+}
+footer h3 {
+   color: lightgrey;
+   font-family: 'Alegreya Sans', sans-serif;
+   margin-top: 0;
+   margin-bottom: 0.5rem;
+}
+.BottomLinks a {
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+.BottomLinks a:link, .BottomLinks a:visited {
+   color: rgb(160, 160, 160);
+}
+.BottomLinks a:hover, .BottomLinks a:active {
+   color: whitesmoke;
+}
